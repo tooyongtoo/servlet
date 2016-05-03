@@ -3,7 +3,7 @@
 FROM tomcat:8.0
 
 # Add war package to the image
-ADD servlet/. /root/servlet
+ADD user/. /root/user
 
 ADD run.sh /run.sh
 
