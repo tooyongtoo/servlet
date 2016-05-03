@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cp -rf /root/servlet/. ${CATALINA_HOME}/webapps/servlet/
+cp -rf /root/user/. ${CATALINA_HOME}/webapps/user/
 
 exec ${CATALINA_HOME}/bin/catalina.sh run
